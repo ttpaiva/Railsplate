@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Talkdeskapp::Application.load_tasks
+Railsplate::Application.load_tasks

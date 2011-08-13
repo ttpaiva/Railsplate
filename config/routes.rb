@@ -1,4 +1,4 @@
-Talkdeskapp::Application.routes.draw do
+Railsplate::Application.routes.draw do
   devise_for :users
 
  root :to => "home#index"
