@@ -11,3 +11,15 @@ config/mongoid.yml (if using Mongoid)
 config/routes.rb
 config.ru
 Rakefile
+
+
+----
+bundle install
+rake db:migrate
+rake db:test:prepare
+
+git remote
+git remote rm origin
+
+git init
+git commit -am "First commit"
